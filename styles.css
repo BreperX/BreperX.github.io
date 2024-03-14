@@ -1,0 +1,57 @@
+        /* Estilo para los laterales del carrusel */
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            margin-top: -50px; /* Ajuste del margen superior */
+        }
+
+
+        .footer-text {
+            color: #333333; /* Cambia este valor al color que prefieras, por ejemplo, #333333 para gris oscuro */
+        }
+
+        .navbar {
+            background-color: #333; /* Cambia este valor al color que prefieras para el fondo de la barra de navegación */
+        }
+
+        
+        .about {
+            margin-top: 35px; /* Ajusta el valor según necesites */
+        }
+
+       
+/* Estilos para los botones del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50px;
+    background-color: rgba(169, 169, 169, 0.5); /* Color gris semitransparente */
+    width: 45px; /* Ancho de los botones */
+    height: calc(100% - 0px); /* Altura de los botones, ajustada para centrar verticalmente */
+    border: none; /* Eliminar el borde */
+    border-radius: 0; /* Eliminar el radio de borde */
+    opacity: 1; /* Opacidad total */
+    transition: opacity 0.3s; /* Transición suave de opacidad */
+}
+
+/* Pseudo-elemento hover para los botones del carrusel */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9; /* Opacidad al pasar el cursor sobre los botones */
+}
+
+/* Iconos de los botones del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent; /* Color de fondo transparente */
+    background-size: 100% 100%; /* Tamaño completo del icono */
+    width: 30px; /* Ancho del icono */
+    height: 30px; /* Altura del icono */
+}
+
+.navbar.invisible {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none; /* Evita que los enlaces sean clicables mientras la barra está invisible */
+}
+
+
